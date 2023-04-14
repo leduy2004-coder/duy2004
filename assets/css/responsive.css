@@ -1,0 +1,102 @@
+/* tablet */
+
+@media (min-width: 740px ) and (max-width: 1200px) {
+    .header h1 {
+        margin: 0 54%;
+    }
+    .nav-slogan {
+        font-size: 0.9rem;
+    }
+
+    .product__list-item {
+        width: 100vw;
+        height: 50%;
+    }
+}
+
+/* mobile */
+
+@media (max-width: 740px) {
+    html {
+        font-size: 62,5%;
+    }
+
+    /*    header     */
+
+    .header {
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header h1 {
+        margin: 1.2rem;
+        font-size: 2rem;
+    }
+    .header__list {
+        display: block;
+    }
+    .header__list .icon {
+        font-size: 1.4rem;
+        color: var(--light);
+    }
+    .nav__list.active {
+        transform: translateX(0);
+    }
+    .nav__list {
+        --spacing: 10px;
+        position: fixed;
+        right: var(--spacing);
+        top: var(--spacing);
+        bottom: var(--spacing);
+        z-index: 5;
+        width: 80%;
+        background-color: #f8f3ed;
+        border-radius: 10px;
+        transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        transform: translateX(150%);
+    }
+    .nav__list li:first-child {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .nav__list li:first-child:before {
+        content: none;
+    }
+    .nav__list-link {
+        font-size: 1rem;
+    }
+    /* main */
+    .nav {
+        display: none;
+    }
+    .section__content h2::before {
+        right: 70%;
+    }
+    .section__content h2::after {
+        left: 70%;
+    }
+    .section__content-info .name {
+        font-size: 3rem;
+        margin: 5rem 3rem 3rem;
+    }
+    .size {
+        font-size: 1.35rem;
+    }
+    .product__list-item {
+        padding: initial;
+        width: 100vw;
+        height: 50%;
+    }
+    .product i {
+        font-size: 1rem;
+    }
+    /* footer */
+
+    .social {
+        display: block;
+        font-size: 1.3rem;
+        margin-top: 1.7rem;
+    }
+}
+
