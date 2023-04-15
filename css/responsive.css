@@ -41,7 +41,7 @@
         color: var(--light);
     }
     .nav__list.active {
-        transform: translateX(0);
+        transform: translateX(0);   
     }
     .nav__list {
         --spacing: 10px;
@@ -54,7 +54,7 @@
         background-color: #f8f3ed;
         border-radius: 10px;
         transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-        transform: translateX(150%);
+        transform: translateX(110%);
     }
     .nav__list li:first-child {
         border-top-left-radius: 10px;

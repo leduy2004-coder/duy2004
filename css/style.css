@@ -1,7 +1,7 @@
 
 #wrapper {
-    width: 1200px;
-    max-width: 100%;
+    max-width: 1200px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -9,7 +9,7 @@
 /* header */
 
 .header {
-    width: 1200px;
+   
     max-width: 100%;
     height: 30%;
     background-color: var(--dark);
@@ -298,9 +298,7 @@ main {
 .product__list {
     display: flex;
     width: max-content;
-   
 }
-
 
 .product__list span {
     font-size: 2rem;
@@ -337,7 +335,6 @@ main {
     text-align: center;
     padding: 1rem;
     font-size: 1.5rem;
-    width: 1200px;
     max-width: 100%;
 }
 .footer h2 {
