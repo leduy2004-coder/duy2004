@@ -43,6 +43,7 @@
     .nav__list.active {
         transform: translateX(0);   
     }
+   
     .nav__list {
         --spacing: 10px;
         position: fixed;

@@ -23,3 +23,5 @@ document.getElementById('prev').onclick = function () {
   const widthItem = document.querySelector('.product__list-item').offsetWidth;
   document.getElementById('product__contain').scrollLeft -= widthItem;
 }  
+
+
