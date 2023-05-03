@@ -25,10 +25,22 @@
 .header h1 {
     margin: 0 60%;
 }
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0 , 0 , 0.4);
+    display: none;
+    z-index: 1;
+}
 .header__list {
     display: none;
 }
-
+.open {
+    display: block;
+}
 .header__list .icon {
     cursor: pointer;
 }
@@ -238,7 +250,6 @@ main {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #0BCEAF;
     border-radius: 1rem;
     animation: animation 1s ease-in;
 }
